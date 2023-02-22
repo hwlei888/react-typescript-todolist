@@ -97,7 +97,7 @@
     cursor: pointer;
 }
 
-@media (max-width: 1100px){
+@media (max-width: 1100px) {
     .todos {
         width: 45%;
     }
@@ -108,12 +108,13 @@
     .input {
         width: 95%;
     }
+
     .todos {
         width: 95%;
         margin-bottom: 10px;
     }
 
-    .container{
+    .container {
         width: 95%;
         flex-direction: column;
     }
@@ -124,9 +125,14 @@
 }
 
 
+.dragactive {
+    background-color: rgb(0, 221, 236);
+}
 
+.dragcomplete {
+    background-color: rgb(255, 38, 0);
+}
 
-
-
-
-
+.drag {
+    box-shadow: 0 0 20px black;
+}
